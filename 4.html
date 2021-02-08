@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Apriansyah Rizqi Setiawan">
+  <title>4.</title>
+</head>
+<body>
+  <script>
+    const nama = prompt("Masukan Nama Anda: ");
+    const kelas = prompt("Masukan Kelas Anda: ");
+    const angkatan = prompt("Masukan Angkatan Anda: ");
+    const univ = "Universitas Catur Insan Cendekia";
+    if(nama != "" && kelas != "" && angkatan != ""){
+      document.write("<ul><li>" + nama + "<br>");
+      document.write("<li>" + kelas + "<br>");
+      document.write("<li>" + angkatan + "<br>");
+      document.write("<li>" + univ + "</ul>");
+    } else {
+      alert("Data Tidak Boleh Ada Yang Kosong!")
+    }
+  </script>
+</body>
+</html>
